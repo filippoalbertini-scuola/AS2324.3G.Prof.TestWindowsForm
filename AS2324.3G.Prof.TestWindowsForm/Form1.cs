@@ -6,5 +6,10 @@ namespace AS2324._3G.Prof.TestWindowsForm
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
