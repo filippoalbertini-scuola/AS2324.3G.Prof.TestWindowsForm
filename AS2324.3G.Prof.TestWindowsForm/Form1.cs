@@ -17,7 +17,7 @@ namespace AS2324._3G.Prof.TestWindowsForm
             lblSaluto.Text = "Ciao " + txtNome.Text;
 
             // colora la label in base al "sesso" dell'utente
-            if (txtNome.Text.EndsWith("a"))
+            if (txtNome.Text.ToUpper().EndsWith("A"))
                 lblSaluto.ForeColor = Color.Pink;
             else
                 lblSaluto.ForeColor = Color.Blue;
