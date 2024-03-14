@@ -11,5 +11,10 @@ namespace AS2324._3G.Prof.TestWindowsForm
         {
 
         }
+
+        private void btnSaluta_Click(object sender, EventArgs e)
+        {
+            lblSaluto.Text = "Ciao " + txtNome.Text;
+        }
     }
 }

@@ -69,12 +69,13 @@
             btnSaluta.TabIndex = 2;
             btnSaluta.Text = "Saluta";
             btnSaluta.UseVisualStyleBackColor = true;
+            btnSaluta.Click += btnSaluta_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(647, 323);
             Controls.Add(btnSaluta);
             Controls.Add(lblSaluto);
             Controls.Add(label1);
